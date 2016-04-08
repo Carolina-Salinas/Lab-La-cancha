@@ -1,0 +1,51 @@
+.contenedor{
+	background: #73C18D;
+	padding: 5px;
+	display: inline-block;
+	
+}
+.contenedor > div{
+	border: 1px solid white;
+	width: 800px;
+	height: 400px;
+	margin: auto;
+}
+.arco{
+	border: 1px solid white;
+	width: 80px;
+	height: 160px;
+	position: relative;
+
+}
+.arco:first-child{
+	top: 100px;	
+	border-left-style: none
+}
+.arco:nth-child(2){
+	left: 720px;
+	bottom: 50px;
+	border-right-style: none;
+}
+.circulo{
+	width: 160px;
+	height: 160px;
+	border: 1px solid white;
+	border-radius: 100px;
+	left: 300px;
+	bottom: 200px;
+	position: relative;
+}
+img{
+	position: relative;	
+}
+img:first-child{
+	left: 65px;
+}
+.arco:nth-child(2) img{
+	left: -30px;
+	top: 130px;
+}
+.circulo img{
+	left: 80px;
+	bottom: 60px;
+}
